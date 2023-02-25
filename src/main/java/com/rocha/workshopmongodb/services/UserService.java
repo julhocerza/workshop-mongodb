@@ -42,4 +42,15 @@ public class UserService {
 		return new User(objDto.getId(), objDto.getName(), objDto.getEmail());
 	}
 	
+	/*
+	 * public User update(String id, User obj) {
+	 * 
+	 * entity = findById(id); updateData(entity, obj); return insert(entity);
+	 * 
+	 * }
+	 * 
+	 * private void updateData(User entity, User obj) {
+	 * entity.setName(obj.getName()); entity.setEmail(obj.getEmail()); }
+	 */
+	
 }
